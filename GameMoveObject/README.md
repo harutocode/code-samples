@@ -2,11 +2,11 @@
 
 ゲームオブジェクトをキーボードの操作で動かすプロブラムコードです。
 
-[解説はこちら](https://www.instagram.com/p/Cox42YcPefc/)
-
-## 環境構築
+## 実行の仕方
 
 以下を実行（nvmは様々なnode.jsのバージョンを管理する）
+
+Mac OSの場合
 
 ```zsh
 brew install nvm
@@ -32,4 +32,10 @@ nvm alias default v19.6.0
 
 ```
 npm install
+```
+
+以下を実行して起動
+
+```
+npm run dev
 ```
